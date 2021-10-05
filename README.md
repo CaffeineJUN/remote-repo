@@ -9,6 +9,14 @@
 IntelliJ 설치법 & 학생 라이센스
 
 ```
-    install_intellij.html
-    install_intellij.css
+    ./install_intellij/install_intellij.html
+    ./install_intellij/style.css
+```
+
+IntelliJ 단축키
+
+```
+    ./shortcut/shortcut.html
+    ./shortcut/style.css
+    ./shortcut/reset.css
 ```
