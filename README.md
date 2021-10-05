@@ -5,6 +5,8 @@
 -   기초웹
     -   IntelliJ 설치법 & 학생 라이센스
     -   IntelliJ 단축키
+    -   Web Design Trend
+    -   Hello Dialog Box
 
 > IntelliJ 설치법 & 학생 라이센스
 
@@ -24,3 +26,19 @@
 ```
 
 <center> <img src="./img/shortcut.png" width="300"> </center>
+
+> Web Design Trend
+
+```
+    ./Design_Trend/Design_Trend.html
+```
+
+<center> <img src="./img/Web_Trend.png" width="300"> </center>
+
+> Hello Dialog Box
+
+```
+    ./Hello_DialogBox/Hello_Dialog_Box.html
+```
+
+<center> <img src="./img/Hello_Box.png" width="300"> </center>
