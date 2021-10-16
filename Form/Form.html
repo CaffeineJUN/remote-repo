@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form_Exam</title>
+    </head>
+    <body>
+        <header style="border-bottom: 1px solid black">
+            <h1>프론트엔드 개발자 지원서</h1>
+            <h4>HTML, CSS, JAVASCRIPT에 대한 기술적 이해와 많은 경험이 있는분을 찾습니다.</h4>
+        </header>
+        <section>
+            <form name="profile">
+                <fieldset>
+                    <legend>입사지원서</legend>
+                    <h3>개인정보</h3>
+                    <ul>
+                        <li>
+                            <label>
+                                이름
+                                <input type="text" />
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                연락처
+                                <input type="text" />
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                학과
+                                <select>
+                                    <option value="">컴퓨터공학과</option>
+                                    <option value="">기계공학과</option>
+                                    <option value="">전자공학과</option>
+                                </select>
+                            </label>
+                        </li>
+                    </ul>
+                    <h3>지원 분야</h3>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="radio" name="field" checked />
+                                웹 퍼블리싱
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="field" />
+                                웹 어플리케이션
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="field" />
+                                웹 개발 지원
+                            </label>
+                        </li>
+                    </ul>
+                    <h3>지원 동기</h3>
+                    <p>
+                        <textarea cols="50" rows="10" placeholder="지원동기를 작성해주세요"></textarea>
+                    </p>
+                    <p>
+                        <button>접수하기</button>
+                        <button>다시작성</button>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+    </body>
+</html>
